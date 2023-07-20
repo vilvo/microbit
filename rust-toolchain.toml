@@ -1,0 +1,5 @@
+[toolchain]
+channel = "stable"
+components = [ "rustc", "llvm-tools-preview" ]
+targets = [ "thumbv6m-none-eabi" ]
+profile = "default"
